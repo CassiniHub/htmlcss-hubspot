@@ -33,6 +33,7 @@ header{
 
   height: 75px;
   width: 20%;
+
   /* debug rules */
   background-color: #FF5959;
 }
@@ -42,6 +43,7 @@ header{
 
   height: 75px;
   width: 20%;
+
   /* debug rules */
   background-color: #FF5959;
 }
@@ -51,6 +53,7 @@ header{
 
   height: 75px;
   width: 10%;
+
   /* debug rules */
   background-color: #FF5959;
 }
@@ -60,8 +63,31 @@ header{
 
   height: 75px;
   width: 30%;
+
   /* debug rules */
   background-color: #FF5959;
 }
 
 
+
+/* MAIN */
+/* JUMBOTRON */
+#jumbotron{
+  border-top: solid 1px transparent; /* added border to father to avoid margin collapse */
+
+  height: 645px;
+  width: 100%;
+
+  /* debug rules */
+  background-color: #FFD08A;
+}
+
+.jumbo-content{
+  margin-top: 40px;
+
+  width: 40%;
+  height: 350px;
+
+  /* debug rules */
+  background-color: #FFA935;
+}
