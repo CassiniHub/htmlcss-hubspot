@@ -3,3 +3,65 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.row{
+  content: "";
+  display: table;
+  clear: both;
+
+  width: 100%;
+}
+
+.center{
+  width: 80%;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header{
+  /* debug rules */
+  height: 150px;
+  background-color: #FF6C6C;
+}
+
+.up-left-nav{
+  float: left;
+
+  height: 75px;
+  width: 20%;
+  /* debug rules */
+  background-color: #FF5959;
+}
+
+.up-right-nav{
+  float: right;
+
+  height: 75px;
+  width: 20%;
+  /* debug rules */
+  background-color: #FF5959;
+}
+
+.down-left-nav{
+  float: left;
+
+  height: 75px;
+  width: 10%;
+  /* debug rules */
+  background-color: #FF5959;
+}
+
+.down-right-nav{
+  float: right;
+
+  height: 75px;
+  width: 30%;
+  /* debug rules */
+  background-color: #FF5959;
+}
+
+
