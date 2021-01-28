@@ -190,3 +190,71 @@ header{
   /* debug rules */
   background-color: #05FF00;
 }
+
+
+
+/* PARTNERS */
+#partners{
+  height: 670px;
+  background-color: white;
+  /* debug rules */
+}
+
+#partners .row{
+  background-color: #74F7FF;
+}
+
+.customers{
+  float: left;
+
+  width: 20%;
+
+  margin-left: 7%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  /* debug rules */
+  height: 155px;
+  background-color: #00C9D6;
+}
+
+.partners-logos{
+  float: right;
+
+  width: 50%;
+
+  margin-right: 7%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  /* debug rules */
+  height: 155px;
+  background-color: #00C9D6;
+}
+
+.growing-with{
+  float: left;
+
+  width: 40%;
+
+  margin-bottom: 50px;
+
+  /* debug rules */
+  height: 370px;
+  background-color: #00C9D6;
+}
+
+
+.testimonial{
+  float: right;
+
+  width: 30%;
+
+  margin-bottom: 50px;
+
+  /* debug rules */
+  height: 370px;
+  background-color: #00C9D6;
+}
+
+
