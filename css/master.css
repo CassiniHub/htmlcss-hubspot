@@ -91,3 +91,74 @@ header{
   /* debug rules */
   background-color: #FFA935;
 }
+
+
+/* OVERVIEW */
+#overview{
+  height: 1410px;
+
+  background-color: #F4F9FD;
+}
+
+/* SLOGAN */
+.slogan{
+  height: 390px;
+  width: 100%;
+
+  /* debug rules */
+  background-color: #FCFF6D;
+}
+
+/* POPULAR FEATURES */
+.popular-features{
+  height: 320px;
+  width: 80%;
+  margin: 0px auto;
+}
+
+.background-popular-features{
+  margin-bottom: 40px;
+
+  /* debug rules */
+  background-color: #FCFF6D;
+}
+
+.learn-more{
+  float: left;
+
+  height: 195px;
+  width: 20%;
+
+  margin-right: 20%;
+
+  /* debug rules */
+  background-color: #FFF500;
+}
+
+.free-hubspot{
+  float: left;
+
+  height: 195px;
+  width: 60%;
+
+  /* debug rules */
+  background-color: #FFF500;
+}
+
+/* THREE HUBS */
+.hub{
+  float: left;
+
+  height: 610px;
+  width: 30%;
+
+  margin-right: 5%;
+
+  /* debug rules */
+  background-color: #FFF500;
+}
+
+.hub:last-child{
+  margin-right: 0;
+}
+
