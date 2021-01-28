@@ -93,6 +93,7 @@ header{
 }
 
 
+
 /* OVERVIEW */
 #overview{
   height: 1410px;
@@ -162,3 +163,30 @@ header{
   margin-right: 0;
 }
 
+
+/* DATA */
+#data{
+  border-top: solid 1px transparent;
+
+  height: 650px;
+  /* debug rules */
+  background-color: #BDFF9D;
+}
+
+/* DATA TEXT */
+.data-text{
+  margin: 40px auto;
+  /* debug rules */
+  height: 200px;
+  background-color: #05FF00;
+}
+
+/* NUMBERS */
+.box-overview{
+  float: left;
+
+  height: 160px;
+  width: 25%;
+  /* debug rules */
+  background-color: #05FF00;
+}
