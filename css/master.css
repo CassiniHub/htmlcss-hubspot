@@ -79,12 +79,25 @@ header{
   color: #33475B;
 }
 
-.up-left-nav li a:last-child{         /* CONTACT US */
-  border-left: 1px solid #33475B;
+.select-language{
+  float: left;
 
-  padding-left: 30px;
+  height: 21px;
+
+  margin: 27px 0;
+  padding-right: 30px;
+
+  border-right: 1px solid #33475B;
 }
 
+.contact-us{
+  float: left;
+
+  height: 21px;
+
+  margin: 27px 0;
+  padding-left: 30px;
+}
 
 
 /* UP-RIGHT-NAV */
