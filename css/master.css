@@ -53,9 +53,14 @@ header{
   margin-right: 30px;
 }
 
+#top-header ul li:last-child{
+  margin-right: 0;
+}
+
 #top-header a{
   text-decoration: none;
 }
+
 
 /* UP-LEFT-NAV */
 .up-left-nav{
@@ -116,7 +121,29 @@ header{
 #down-header{
   background-color: white;
 }
-/* DOWN RIGHT NAV */
+
+#down-header ul{
+  list-style-type: none;
+
+  height: 75px;
+  line-height: 75px;
+}
+
+#down-header ul li{
+  display: inline-block;
+
+  margin-right: 30px;
+}
+
+#down-header ul li:last-child{
+  margin-right: 0;
+}
+
+#down-header a{
+  text-decoration: none;
+}
+
+/* DOWN LEFT NAV */
 .down-left-nav{
   float: left;
 
@@ -127,16 +154,18 @@ header{
   padding-top: 8px;
 }
 
+/* DOWN RIGHT NAV */
 .down-right-nav{
   float: right;
 
+  text-align: right;
   height: 75px;
-  width: 30%;
-
-  /* debug rules */
-  background-color: #FF5959;
+  width: 40%;
 }
 
+.down-right-nav a{
+  color: #33475B;
+}
 
 
 /* MAIN */
