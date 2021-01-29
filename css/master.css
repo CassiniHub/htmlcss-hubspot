@@ -24,20 +24,23 @@ body{
 /* HEADER */
 header{
   position: fixed;
+
+  z-index: 999;
+
   top: 0;
   left: 0;
 
   width: 100%;
-
   height: 150px;
+
+  font-size: 16px;
 }
 
+/* TOP HEADER */
 #top-header{
   border-bottom: 1px solid #33475B;
 
   background-color: #F4F9FD;
-
-  font-size: 21px;
 }
 
 #top-header ul{
@@ -67,7 +70,7 @@ header{
   float: left;
 
   height: 75px;
-  width: 40%;
+  width: 50%;
 
   color: #33475B;
 }
@@ -79,7 +82,7 @@ header{
 .up-left-nav li a:last-child{         /* CONTACT US */
   border-left: 1px solid #33475B;
 
-  padding-left: 40px;
+  padding-left: 30px;
 }
 
 
@@ -89,7 +92,7 @@ header{
   float: right;
 
   height: 75px;
-  width: 30%;
+  width: 50%;
 
   text-align: right;
 }
@@ -155,12 +158,13 @@ header{
 }
 
 /* DOWN RIGHT NAV */
-.down-right-nav{
+.down-right-nav {
   float: right;
 
   text-align: right;
+
   height: 75px;
-  width: 40%;
+  width: 80%;
 }
 
 .down-right-nav a{
@@ -175,23 +179,68 @@ main{
 
 /* JUMBOTRON */
 #jumbotron{
+  position: relative;
+
   border-top: solid 1px transparent; /* added border to father to avoid margin collapse */
 
+  height: 695px;
   width: 100%;
 
+  background-image: url(../img/jumbotron.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+
+  color: #33475B;
+
   /* debug rules */
-  height: 645px;
-  background-color: #FFD08A;
+  background-color: #FFF4EF;
 }
 
+#jumbo-green-line{
+  position: absolute;
+
+  bottom: 0;
+
+  height: 83px;
+  width: 100%;
+
+  border-top: 3px solid #33475B;
+  border-bottom: 3px solid #33475B;
+
+  background-color: #AFEBE4;
+}
+
+
 .jumbo-content{
-  margin-top: 40px;
+  margin-top: 60px;
 
   width: 40%;
+}
 
-  /* debug rules */
-  height: 350px;
-  background-color: #FFA935;
+.jumbo-content h2{
+  font-size: 51px;
+
+  margin-bottom: 30px;
+}
+
+.general-text{
+  font-size: 15px;
+
+  line-height: 1.7em;
+}
+
+#jumbo-button{
+  display: inline-block;
+
+  padding: 25px 45px;
+  margin: 20px 0;
+}
+
+#jumbo-button a{
+  text-decoration: none;
+
+  color: white;
 }
 
 
