@@ -29,9 +29,7 @@ header{
 
   width: 100%;
 
-  /* debug rules */
   height: 150px;
-  background-color: #FF6C6C;
 }
 
 #top-header{
@@ -114,14 +112,19 @@ header{
   padding: 10px 10px;
 }
 
+/* DOWN HEADER */
+#down-header{
+  background-color: white;
+}
+/* DOWN RIGHT NAV */
 .down-left-nav{
   float: left;
 
+  line-height: 75px;
   height: 75px;
   width: 10%;
 
-  /* debug rules */
-  background-color: #FF5959;
+  padding-top: 8px;
 }
 
 .down-right-nav{
