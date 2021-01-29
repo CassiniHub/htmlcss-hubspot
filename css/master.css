@@ -28,21 +28,61 @@ header{
   left: 0;
 
   width: 100%;
+
   /* debug rules */
   height: 150px;
   background-color: #FF6C6C;
 }
 
+header ul{
+  list-style-type: none;
+}
+
+header li{
+  display: inline-block;
+
+  height: 75px;
+  line-height: 75px;
+
+  padding-right: 30px;
+}
+
+#top-header{
+  border-bottom: 1px solid #33475B;
+
+  background-color: #F4F9FD;
+}
+
+.nav-text{
+  font-size: 21px;
+  color: #33475B;
+}
+
+/* UP-LEFT-NAV */
 .up-left-nav{
   float: left;
 
   height: 75px;
-  width: 20%;
-
-  /* debug rules */
-  background-color: #FF5959;
+  width: 40%;
 }
 
+.up-left-nav a{
+  text-decoration: none;
+
+  color: #33475B;
+}
+
+.up-left-nav a{
+  padding-left: 40px;
+}
+
+.up-left-nav li a:last-child{
+  border-left: 1px solid #33475B;
+}
+
+
+
+/* UP-RIGHT-NAV */
 .up-right-nav{
   float: right;
 
@@ -52,6 +92,8 @@ header{
   /* debug rules */
   background-color: #FF5959;
 }
+
+
 
 .down-left-nav{
   float: left;
@@ -84,10 +126,10 @@ main{
 #jumbotron{
   border-top: solid 1px transparent; /* added border to father to avoid margin collapse */
 
-  height: 645px;
   width: 100%;
 
   /* debug rules */
+  height: 645px;
   background-color: #FFD08A;
 }
 
@@ -95,9 +137,9 @@ main{
   margin-top: 40px;
 
   width: 40%;
-  height: 350px;
 
   /* debug rules */
+  height: 350px;
   background-color: #FFA935;
 }
 
@@ -105,6 +147,7 @@ main{
 
 /* OVERVIEW */
 #overview{
+  /* debug rules */
   height: 1410px;
 
   background-color: #F4F9FD;
@@ -112,18 +155,20 @@ main{
 
 /* SLOGAN */
 .slogan{
-  height: 390px;
   width: 100%;
 
   /* debug rules */
+  height: 390px;
   background-color: #FCFF6D;
 }
 
 /* POPULAR FEATURES */
 .popular-features{
-  height: 320px;
   width: 80%;
   margin: 0px auto;
+
+  /* debug rules */
+  height: 320px;
 }
 
 .background-popular-features{
