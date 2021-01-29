@@ -267,7 +267,7 @@ main{
 /* OVERVIEW */
 #overview{
   /* debug rules */
-  height: 1410px;
+  width: 100%;
 
   background-color: #F4F9FD;;
 }
@@ -388,22 +388,59 @@ main{
 
   margin-right: 10px;
 }
+
+
+
 /* THREE HUBS */
 .hub{
   float: left;
 
-  height: 610px;
   width: 30%;
 
-  margin-right: 5%;
+  text-align: center;
+  color: #33475B;
 
-  /* debug rules */
-  background-color: #FFF500;
+  padding: 25px 5%;
+
+  margin-right: 5%;
+  margin-bottom: 50px;
+
+  background-color: white;
+
+  box-shadow: 1px 1px 5px 0.5px lightgrey;
 }
 
 .hub:last-child{
   margin-right: 0;
 }
+
+.hub img{
+  height: 100px;
+
+  margin-bottom: 20px;
+}
+
+.hub h4{
+  margin-bottom: 35px;
+}
+
+.hub .divisor{
+  margin-bottom: 40px;
+}
+
+.hub .general-text{
+  margin-bottom: 80px;
+}
+
+.hub ul{
+  margin-bottom: 50px;
+}
+
+.hub ul li{
+  list-style-type: none;
+  text-align: left;
+}
+
 
 
 /* DATA */
