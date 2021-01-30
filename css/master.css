@@ -447,29 +447,74 @@ main{
 #data{
   border-top: solid 1px transparent;
 
-  height: 650px;
-  /* debug rules */
-  background-color: #BDFF9D;
+  padding-top: 50px;
+  padding-bottom: 120px;
+
+  background-image:linear-gradient(to right, #00A8B9, #00B9AA);
 }
 
 /* DATA TEXT */
 .data-text{
-  margin: 40px auto;
-  /* debug rules */
-  height: 200px;
-  background-color: #05FF00;
+  text-align: center;
+
+  margin-bottom: 50px;
 }
+
+.data-text .section-title, .data-text .general-text{
+  color: white;
+}
+
+.data-text h3.section-title{
+  margin-bottom: 30px;
+}
+
 
 /* NUMBERS */
 .box-overview{
   float: left;
 
-  height: 160px;
   width: 25%;
-  /* debug rules */
-  background-color: #05FF00;
+
+  padding: 25px 0;
+
+  text-align: center;
+  color: white;
 }
 
+.right-bottom{
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.right-bottom:last-child{
+  border-right: none;
+}
+
+.right{
+  border-right: 1px solid white;
+}
+
+.right:last-child{
+  border-right: none;
+}
+
+.box-numbers{
+  color: white;
+  font-size: 48px;
+  font-weight: bold;
+
+  margin: 15px 0;
+}
+
+.plus{
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.box-text{
+  color: white;
+  font-size: 14px;
+}
 
 
 /* PARTNERS */
