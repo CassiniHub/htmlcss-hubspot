@@ -374,6 +374,15 @@ main{
   margin-bottom: 30px;
 }
 
+#line{
+  display: inline-block;
+
+  vertical-align: middle;
+  margin-left: 7%;
+
+  width: 50%;
+}
+
 .learn-more, .free-hubspot{
   margin-top: 80px;
   margin-bottom: 80px;
@@ -639,9 +648,6 @@ footer{
   padding: 40px 0;
   background-color: #32495B;
   color: #33475B;
-
-  /* debug rules */
-  height: 575px;
 }
 
 .footer-links{
@@ -697,16 +703,33 @@ footer{
 
 /* LANGUAGES */
 .languages{
+  line-height: 60px;
   height: 60px;
   width: 100%;
 
-  margin-top: 60px;
+  text-align: center;
+  font-size: 12px;
+
+  margin-top: 50px;
   margin-bottom: 40px;
 
   border-bottom: 1px solid white;
+}
 
-  /* debug rules */
-  background-color: #283EFF;
+.languages ul li{
+  display: inline-block;
+  list-style-type: none;
+
+  margin-right: 15px;
+}
+
+.languages ul li:last-child{
+  margin-right: 0;
+}
+
+.languages a{
+  text-decoration: none;
+  color: #DADEE0;
 }
 
 
@@ -716,17 +739,39 @@ footer{
 
   height: 60px;
   width: 20%;
+}
 
-  /* debug rules */
-  background-color: #283EFF;
+.copyright img{
+  display: block;
+
+  height: 50%;
+
+  margin-bottom: 5px;
+}
+
+#copy-text{
+  height: 50%;
+
+  color: white;
+  font-size: 12px;
+  text-align: left;
 }
 
 .policy{
   float: right;
+  text-align: right;
 
   height: 60px;
   width: 20%;
+}
 
-  /* debug rules */
-  background-color: #283EFF;
+.policy a{
+  text-decoration: none;
+
+  color: #DADEE0;
+  font-size: 12px;
+}
+
+.policy a:last-child{
+  margin-left: 15px;
 }
