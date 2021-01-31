@@ -640,7 +640,11 @@ main{
 }
 
 .testimonial img{
-  height: 310px;
+  position: relative;
+  bottom: 50px;
+  right: 0;
+
+  height: 340px;
 }
 
 /* FOOTER */
