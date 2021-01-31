@@ -682,13 +682,17 @@ footer{
 
   background-color: #DADEE0;
   border-radius: 5px;
-  padding: 10px 10px;
+
+  height: 36px;
+  line-height: 36px;
 }
 
-#contact-hubspot{
+#contact-hubspot {
   text-decoration: none;
 
-  padding: 10px 10px;
+  color: #33475B;
+
+  padding: 15px 15px;
 }
 
 .social-icons a{
