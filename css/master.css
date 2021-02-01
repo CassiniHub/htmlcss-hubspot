@@ -669,19 +669,10 @@ footer{
   text-decoration: none;
 }
 
-#footer-button {
+a#footer-button {
   display: inline-block;
 
   background-color: #DADEE0;
-  border-radius: 5px;
-
-  height: 36px;
-  line-height: 36px;
-}
-
-#contact-hubspot {
-  text-decoration: none;
-
   color: #33475B;
 
   padding: 15px 15px;
