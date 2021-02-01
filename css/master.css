@@ -23,8 +23,10 @@ body{
 
 .section-title{
   font-size: 26px;
+}
 
-  color: #33475B;
+.box-shadow{
+  box-shadow: 1px 1px 5px 0.5px lightgrey;
 }
 
 .button{
@@ -192,6 +194,8 @@ a#get-hubspot-free{
 /* MAIN */
 main{
   margin-top: 150px; /* margin added cause of the fixed header */
+
+  color: #33475B;
 }
 
 /* ----------------------------- */
@@ -209,8 +213,6 @@ main{
   background-size: auto 100%;
   background-repeat: no-repeat;
   background-position: right;
-
-  color: #33475B;
 
   background-color: #FFF4EF;
 }
@@ -273,13 +275,11 @@ a#jumbo-button{
 
   text-align: center;
 
-  margin-bottom: 50px;
+  padding: 50px 0;
 }
 
 .slogan img{
   height: 150px;
-
-  margin-top: 50px;
 }
 
 .slogan h3{
@@ -292,9 +292,8 @@ a#jumbo-button{
 .popular-features{
   background-color: white;
 
+  padding: 80px 10%; /* added padding to main container to horizontal align all the contents inside */
   margin-bottom: 50px;
-
-  box-shadow: 1px 1px 5px 0.5px lightgrey;
 
   border-radius: 8px;
 }
@@ -304,10 +303,7 @@ a#jumbo-button{
 
   text-align: center;
 
-  width: 20%;
-
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-right: 10%;
 }
 
 .learn-more img{
@@ -327,12 +323,13 @@ a.learn-more-button{
   padding: 20px 40px;
 }
 
+/* ----------------------------- */
+
+/* FREE HUBSPOT */
 .free-hubspot{
   float: left;
 
   width: 60%;
-
-  color: #33475B;
 }
 
 .inside-section-title{
@@ -365,11 +362,6 @@ a.learn-more-button{
   width: 50%;
 }
 
-.learn-more, .free-hubspot{
-  margin-top: 80px;
-  margin-bottom: 80px;
-}
-
 .popular-feature-list li{
   margin-right: 20px;
 }
@@ -389,16 +381,13 @@ a.learn-more-button{
   width: 30%;
 
   text-align: center;
-  color: #33475B;
 
-  padding: 25px 5%;
+  padding: 25px 4%;
 
   margin-right: 5%;
   margin-bottom: 50px;
 
   background-color: white;
-
-  box-shadow: 1px 1px 5px 0.5px lightgrey;
 }
 
 .hub:last-child{
@@ -442,6 +431,7 @@ a.learn-more-button{
   padding-top: 50px;
   padding-bottom: 120px;
 
+  color: white;
   background-image:linear-gradient(to right, #00A8B9, #00B9AA);
 }
 
@@ -452,10 +442,6 @@ a.learn-more-button{
   text-align: center;
 
   margin-bottom: 50px;
-}
-
-.data-text .section-title, .data-text .general-text{
-  color: white;
 }
 
 .data-text h3.section-title{
@@ -475,7 +461,6 @@ a.learn-more-button{
   padding: 25px 0;
 
   text-align: center;
-  color: white;
 }
 
 .right-bottom{
@@ -496,40 +481,47 @@ a.learn-more-button{
 }
 
 .box-numbers{
-  color: white;
   font-size: 48px;
   font-weight: bold;
 
   margin: 15px 0;
 }
 
-.plus{
-  font-size: 24px;
+.number, .plus{
+  vertical-align: middle;
+}
+
+.box-numbers .plus{
+  font-size: 36px;
   font-weight: normal;
 }
 
+.box-icon{
+  height: 38px;
+}
+
 .box-text{
-  color: white;
   font-size: 12px;
 }
 
-/* ----------------------------- */
+/* ------------------------------------------------------- */
 
 /* PARTNERS */
 #partners{
-  height: 670px;
-
   padding: 50px 0;
-
-  color: #33475B;
 
   background-color: white;
 }
 
 #partners-list{
+  padding: 0 6%;
+
   margin-bottom: 100px;
 }
 
+/* ----------------------------- */
+
+/* CUSTOMERS */
 .customers{
   float: left;
 
@@ -540,43 +532,42 @@ a.learn-more-button{
   margin-bottom: 30px;
 }
 
+/* ----------------------------- */
+
+/* PARTNERS' LOGOS */
 .partners-logos{
   float: right;
 
-  width: 50%;
+  width: 80%;
 
   margin-bottom: 50px;
   padding-top: 20px;
 }
 
 .partners-logos img{
-  width: 100px;
+  width: 130px;
 
   margin-right: 3%;
 
   vertical-align: middle;
 }
 
-#first-line{
+.logo-line{
   width: 100%;
   text-align: right;
 
+}
+.logo-line:first-child{
   margin-bottom: 20px;
 }
 
-#second-line{
-  width: 100%;
-  text-align: right;
-}
-
-#first-line img:last-child{
+.logo-line img:last-child{
   margin-right: 0;
 }
 
-#second-line img:last-child{
-  margin-right: 0;
-}
+/* ----------------------------- */
 
+/* GROWING WITH */
 .growing-with{
   float: left;
 
@@ -588,7 +579,7 @@ a.learn-more-button{
 }
 
 .growing-with p.general-text{
-  font-size: 12px;
+  font-size: 14px;
 
   margin-bottom: 40px;
 }
@@ -596,20 +587,20 @@ a.learn-more-button{
 a#partners-button{
   display: inline-block;
 
-  font-size: 12px;
+  font-size: 14px;
 
-  padding: 17px 25px;
+  padding: 20px 35px;
   margin-bottom: 40px;
 }
 
 #call-to-action-text{
-  font-size: 10px;
-  color: #33475B;
+  font-size: 12px;
 }
 
 
 
 .testimonial{
+  position: relative;
   float: right;
 
   text-align: right;
@@ -618,11 +609,11 @@ a#partners-button{
 }
 
 .testimonial img{
-  position: relative;
-  bottom: 50px;
+  position: absolute;
+  bottom: 25px;
   right: 0;
 
-  height: 340px;
+  height: 385px;
 }
 
 
@@ -631,9 +622,11 @@ a#partners-button{
 
 /* FOOTER */
 footer{
-  padding: 40px 0;
   background-color: #32495B;
-  color: #33475B;
+  color: #DADEE0;
+  font-size: 12px;
+
+  padding: 40px 0;
 }
 
 .footer-links{
@@ -642,7 +635,6 @@ footer{
   width: 20%;
 
   color: white;
-  font-size: 12px;
 
   margin-right: 5%;
 }
@@ -691,7 +683,6 @@ a#footer-button {
   width: 100%;
 
   text-align: center;
-  font-size: 12px;
 
   margin-top: 50px;
   margin-bottom: 40px;
@@ -710,7 +701,6 @@ a#footer-button {
 }
 
 .languages a{
-  text-decoration: none;
   color: #DADEE0;
 }
 
@@ -720,7 +710,6 @@ a#footer-button {
 .copyright{
   float: left;
 
-  height: 60px;
   width: 20%;
 }
 
@@ -744,15 +733,11 @@ a#footer-button {
   float: right;
   text-align: right;
 
-  height: 60px;
   width: 20%;
 }
 
 .policy a{
-  text-decoration: none;
-
   color: #DADEE0;
-  font-size: 12px;
 }
 
 .policy a:last-child{
