@@ -53,6 +53,28 @@ ul{
 
 /* ------------------------------------------------------- */
 
+/* FIXED PARTS */
+#help{
+  position: fixed;
+
+  display: block;
+
+  bottom: 43.5px;
+  right: 20px;
+
+  text-align: center;
+
+  z-index: 1000;
+}
+
+#help a{
+  font-size: 26px;
+  color: #DADEE0;
+  background-color: #496678;
+  border-radius: 50%;
+
+  padding: 15px 18.5px; /* adding hpx 3.5 px to make a perfect circle */
+}
 
 /* HEADER */
 header{
@@ -74,7 +96,7 @@ header{
   line-height: 75px;
 }
 
-.half-header ul li{
+#top-header ul li{
   display: inline-block;
 
   margin-right: 30px;
@@ -187,8 +209,10 @@ a#get-hubspot-free{
   background-color: white;
 }
 
-#down-header ul li:last-child{
-  margin-right: 0;
+#down-header ul li{
+  display: inline-block;
+
+  margin: 0;
 }
 
 
@@ -215,6 +239,8 @@ a#get-hubspot-free{
 
 .down-right-nav a{
   color: #33475B;
+
+  padding: 0 15px;
 }
 
 #select-software{
@@ -228,7 +254,9 @@ a#get-hubspot-free{
 
   text-align: left;
 
-  min-width: 150%;
+  max-width: max-content;
+
+  min-width: 120%;
 
   background-color: white;
 
@@ -238,9 +266,9 @@ a#get-hubspot-free{
 }
 
 .dropdown-software a{
-  display: block;
+  display: inline-block;
 
-  padding: 0 15px;;
+  padding: 0 15px;
 }
 
 .dropdown-software a:hover{
