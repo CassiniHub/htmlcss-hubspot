@@ -8,7 +8,7 @@ body{
   font-family: 'Montserrat', sans-serif;
 }
 
-.row{
+.row::after{
   content: "";
   display: table;
   clear: both;
@@ -17,7 +17,7 @@ body{
 }
 
 .center{
-  width: 75%;
+  width: 70%;
   margin: 0 auto;
 }
 
@@ -636,6 +636,8 @@ a.learn-more-button{
 .growing-with{
   float: left;
 
+  padding: 3rem 0;
+
   width: 30%;
 }
 
@@ -665,7 +667,6 @@ a#partners-button{
 
 
 .testimonial{
-  position: relative;
   float: right;
 
   text-align: right;
@@ -674,11 +675,7 @@ a#partners-button{
 }
 
 .testimonial img{
-  position: absolute;
-  bottom: 25px;
-  right: 0;
-
-  height: 385px;
+  height: 440px;
 }
 
 
