@@ -107,7 +107,7 @@ header{
 }
 
 .select-language{
-  /* left nav centered through padding cause of the vertical line divisor */
+  /* left nav centered through margin cause of the vertical line divisor */
   float: left;
 
   margin: 27px 0;
