@@ -68,12 +68,16 @@ ul{
 }
 
 #help a{
+  display: block;
+
   font-size: 26px;
   color: #DADEE0;
   background-color: #496678;
   border-radius: 50%;
 
-  padding: 15px 18.5px; /* adding hpx 3.5 px to make a perfect circle */
+  width: 63px;
+  height: 63px;
+  line-height: 63px;
 }
 
 #help a:hover{
