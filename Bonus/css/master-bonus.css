@@ -67,7 +67,7 @@ ul{
   z-index: 1000;
 }
 
-#help a{
+#help button{
   display: block;
 
   font-size: 26px;
@@ -80,7 +80,7 @@ ul{
   line-height: 63px;
 }
 
-#help a:hover{
+#help button:hover{
   box-shadow: 1px 1px 15px 0.5px grey;
 }
 
