@@ -119,6 +119,7 @@ header{
   float: left;
 
   height: 75px;
+  line-height: 75px;
   width: 50%;
 
   font-size: 16px;
@@ -134,11 +135,10 @@ header{
 
   position: relative;
   display: inline-block;
+}
 
-  margin: 27px 0;
-  padding-right: 30px;
-
-  border-right: 1px solid #33475B;
+.select-language a{
+  padding: 27px 0;
 }
 
 .dropdown-language{
@@ -147,7 +147,7 @@ header{
 
   background-color: #F4F9FD;
 
-  padding-top: 27px;
+  white-space: nowrap;
 
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 
@@ -155,7 +155,8 @@ header{
 }
 
 .dropdown-language a{
-  padding: 12px 16px;
+  padding: 0 20px;
+
   display: block;
 }
 
@@ -168,13 +169,26 @@ header{
   display: block;
 }
 
-.contact-us{
+.vertical-rule{
   float: left;
 
-  margin: 27px 0;
-  padding-left: 30px;
+  width: 1px;
+  height: 21px;
+
+  margin-top: 27px;
+  margin-left: 30px;
+  margin-right: 30px;
+
+  border-left: 1px solid #33475B;
 }
 
+.contact-us{
+  float: left;
+}
+
+.contact-us a{
+  padding: 27px 0;
+}
 
 /* UP-RIGHT-NAV */
 .up-right-nav{
@@ -254,9 +268,7 @@ a#get-hubspot-free{
 
   text-align: left;
 
-  max-width: max-content;
-
-  min-width: 120%;
+  white-space: nowrap;
 
   background-color: white;
 
@@ -266,7 +278,7 @@ a#get-hubspot-free{
 }
 
 .dropdown-software a{
-  display: inline-block;
+  display: block;
 
   padding: 0 15px;
 }
