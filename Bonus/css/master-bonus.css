@@ -76,6 +76,10 @@ ul{
   padding: 15px 18.5px; /* adding hpx 3.5 px to make a perfect circle */
 }
 
+#help a:hover{
+  box-shadow: 1px 1px 15px 0.5px grey;
+}
+
 /* HEADER */
 header{
   position: fixed;
@@ -711,11 +715,11 @@ a#partners-button{
 
   text-align: right;
 
-  width: 30%;
+  max-width: 30%;
 }
 
 .testimonial img{
-  height: 440px;
+  width: 100%;
 }
 
 
